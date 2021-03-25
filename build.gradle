@@ -31,6 +31,7 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('org.projectlombok:lombok')
     testCompile "org.projectlombok:lombok"
+    testCompile "org.springframework.security:spring-security-test"
     annotationProcessor('org.projectlombok:lombok')
     testAnnotationProcessor('org.projectlombok:lombok')
 

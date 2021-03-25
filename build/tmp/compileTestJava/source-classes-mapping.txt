@@ -1,0 +1,10 @@
+com/jihoho/myspring/springboot/domain/posts/PostsRepositoryTest.java
+ com.jihoho.myspring.springboot.domain.posts.PostsRepositoryTest
+com/jihoho/myspring/springboot/web/IndexControllerTest.java
+ com.jihoho.myspring.springboot.web.IndexControllerTest
+com/jihoho/myspring/springboot/web/dto/HelloResponseDtoTest.java
+ com.jihoho.myspring.springboot.web.dto.HelloResponseDtoTest
+com/jihoho/myspring/springboot/web/HelloControllerTest.java
+ com.jihoho.myspring.springboot.web.HelloControllerTest
+com/jihoho/myspring/springboot/web/PostsApiControllerTest.java
+ com.jihoho.myspring.springboot.web.PostsApiControllerTest

@@ -29,6 +29,7 @@ var main = {
             alert('글이 등록되었음.');
             window.location.href='/';
         }).fail(function (error){
+            alert('글 등록이 안됨');
             alert(JSON.stringify(error));
         });
     },
