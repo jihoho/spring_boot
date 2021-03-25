@@ -1,8 +1,8 @@
 com/jihoho/myspring/springboot/config/auth/dto/OAuthAttributes.java
  com.jihoho.myspring.springboot.config.auth.dto.OAuthAttributes
  com.jihoho.myspring.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
-com/jihoho/myspring/springboot/Application.java
- com.jihoho.myspring.springboot.Application
+com/jihoho/myspring/springboot/web/PostsApiController.java
+ com.jihoho.myspring.springboot.web.PostsApiController
 com/jihoho/myspring/springboot/config/auth/LoginUserArgumentResolver.java
  com.jihoho.myspring.springboot.config.auth.LoginUserArgumentResolver
 com/jihoho/myspring/springboot/web/dto/PostsSaveRequestDto.java
@@ -47,5 +47,7 @@ com/jihoho/myspring/springboot/domain/user/Role.java
  com.jihoho.myspring.springboot.domain.user.Role
 com/jihoho/myspring/springboot/config/auth/CustomOAuth2UserService.java
  com.jihoho.myspring.springboot.config.auth.CustomOAuth2UserService
-com/jihoho/myspring/springboot/web/PostsApiController.java
- com.jihoho.myspring.springboot.web.PostsApiController
+com/jihoho/myspring/springboot/Application.java
+ com.jihoho.myspring.springboot.Application
+com/jihoho/myspring/springboot/config/JpaConfig.java
+ com.jihoho.myspring.springboot.config.JpaConfig
