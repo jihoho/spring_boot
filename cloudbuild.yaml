@@ -4,4 +4,4 @@ steps:
     args: ['assemble']
   - name: gcr.io/cloud-builders/docker
     args: [ 'build', '-t', 'gcr.io/phrasal-period-309310/springboot-container-test', '--build-arg=JAR_FILE=build/libs/*.jar', '.' ]
-    images: ['gcr.io/phrasal-period-309310/springboot-container-test']
+images: ['gcr.io/phrasal-period-309310/springboot-container-test']
