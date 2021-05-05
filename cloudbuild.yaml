@@ -9,7 +9,6 @@ steps:
     args: [ 'build', '-t', 'gcr.io/phrasal-period-309310/springboot-container-test', '--build-arg=JAR_FILE=build/libs/*.jar', '.' ]
   - name: 'gcr.io/cloud-builders/docker'
     args: [ 'push', 'gcr.io/phrasal-period-309310/spring-boot-container-test' ]
-    options:
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
