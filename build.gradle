@@ -16,9 +16,6 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-mainClassName = com.jihoho.myspring.springboot
-
-
 group 'com.jihoho.myspring'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
