@@ -19,3 +19,4 @@ steps:
       - '--allow-unauthenticated'
       - '--port'
       - '8080'
+      - '--allow-unauthenticated'
