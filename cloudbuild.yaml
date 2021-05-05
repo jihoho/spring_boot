@@ -1,4 +1,7 @@
 steps:
   - name: gradle:6.7
     entrypoint: gradle
-    args: ['build']
+    args: ['install']
+  - name: gcr.io/cloud-builders/docker
+    args: [ 'build', '-t', 'gcr.io/pagu-community/springboot-container-test', '--build-arg=JAR_FILE=build/libs/build-artifact', '.' ]
+images: [ 'gcr.io/project-id/image-name' ]
