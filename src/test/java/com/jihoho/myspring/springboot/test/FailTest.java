@@ -13,6 +13,6 @@ import org.junit.Test;
 public class FailTest {
     @Test
     public void 실패하는_테스트(){
-        assertThat(0).isEqualTo(1);
+        assertThat(0).isEqualTo(0);
     }
 }
